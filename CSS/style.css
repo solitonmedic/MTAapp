@@ -8,7 +8,7 @@ pre {
 }
       
 @media screen and (max-width: 768px) {
-.side-collapse-container{
+  .side-collapse-container{
  width:100%;
  position:relative;
  left:0;
@@ -30,3 +30,21 @@ pre {
  width:0;
           }
       }
+
+#background {
+  height: 1000px;
+  width: auto;
+  background-color: skyblue;
+}
+
+#container {
+    background-color: white;
+    height: 300px;
+    width: 690px;
+    margin: auto;
+}
+
+#footer {
+  width: auto;
+  height: 300px;
+}
