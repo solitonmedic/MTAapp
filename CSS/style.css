@@ -6,30 +6,69 @@ body {
 pre {
   tab-size: 8;
 }
-      
 @media screen and (max-width: 768px) {
-  .side-collapse-container{
+
+.side-collapse-container{
  width:100%;
  position:relative;
  left:0;
  transition:left .4s;
 }
   .side-collapse-container.out{
-  left:200px;
-          }
+  		left:200px;
+ }
 .side-collapse {
   top:50px;
   bottom:0;
   left:0;
-  width:200px;
+  width:100%;
   position:fixed;
   overflow:hidden;
   transition:width .4s;
 }
 .side-collapse.in {
- width:0;
-          }
-      }
+ 		width:0;
+}
+	#input-div #origin-input{
+		width: 100%;
+		display:block;
+		margin: 0% 0%;
+	}
+	#input-div #destination-input{
+		width: 100%;
+		display: block;
+		margin: 0% 0%;
+	}
+	#main_content #googleMap{
+			margin: 10px 0;
+			width:100%;
+			height:14%;
+			display:block;
+		}
+	#input-div{
+		width: 100%;
+		height: 9%;
+	}
+	#button1{
+		display: block;
+		height: 30px;
+		width: 100%;
+	}
+	#directionsPanel{
+		width:100%;
+		height: 14%;
+		margin: 0 0;
+	}
+
+
+
+
+
+}
+
+
+
+
 
 #background {
   height: 1000px;
@@ -43,6 +82,30 @@ pre {
     width: 690px;
     margin: auto;
 }
+#input-div{
+	width: 100%;
+	height: 200px;
+	margin: 0 auto;
+}
+#origin-input{
+	/*padding: 8px 0px 8px 20px;*/
+	margin: 7% 0% 0% 35%;
+}
+
+#googleMap{
+		margin: 10px auto 0px auto;
+		width:80%;
+		height:400px;
+		display:block;
+	}
+	#directionsPanel{
+		width:80%;
+		height:400px;
+		display:block;
+		margin: 10px auto;
+	}
+
+
 
 #footer {
   width: auto;
