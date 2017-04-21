@@ -1,10 +1,11 @@
-html,body {
+html body {
 	height:100%;
+	margin: 0;
 }
       
-pre {
+/*pre {
   tab-size: 8;
-}
+}*/
 @media screen and (max-width: 768px) {
 
 .side-collapse-container{
@@ -28,6 +29,10 @@ pre {
 .side-collapse.in {
  		width:0;
 }
+	#input-fields{
+	padding-top: 30px;
+	}
+	
 	#input-div #origin-input{
 		width: 100%;
 		display:block;
@@ -53,14 +58,18 @@ pre {
 		margin: 0;
 	}
 
-
+	#title{
+		padding-top: 60px;
+	}
 
 
 }
 
 
 
-
+#title{
+	text-align:center;
+}
 
 #background {
   height: 100%;
@@ -79,6 +88,8 @@ pre {
 	width: 80%;
 	margin: 0 auto;
 	background-color: white;
+	height: 900px;
+	position: relative;
 }
 #origin-input{
 	/*padding: 8px 0px 8px 20px;*/
@@ -86,15 +97,18 @@ pre {
 }
 
 #googleMap{
-		margin: 10px auto;
+		margin: 0 auto;
 		width:80%;
-		height:400px;
+		height:300px;
 		display:block;
+		
 	}
 	#directionsPanel{
 		width:80%;
 		display:block;
 		margin: 10px auto;
+		height: 300px;
+		
 
 	}
 
