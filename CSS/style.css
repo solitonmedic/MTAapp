@@ -1,7 +1,6 @@
-body {
-  padding-top: 50px;
-  position: relative;
-      }
+html,body {
+	height:100%;
+}
       
 pre {
   tab-size: 8;
@@ -54,13 +53,6 @@ pre {
 		margin: 0;
 	}
 
-/*#input-div #googleMap{
-		margin: 10px auto;
-		width:80%;
-		height:60%;
-		display:block;
-		position: absolute;
-	}*/
 
 
 
@@ -73,6 +65,7 @@ pre {
 #background {
   height: 100%;
   width: 100%;
+	margin: 0;
   background-color: skyblue;
 }
 
@@ -93,7 +86,7 @@ pre {
 }
 
 #googleMap{
-		margin: 10px auto 0px auto;
+		margin: 10px auto;
 		width:80%;
 		height:400px;
 		display:block;
@@ -107,7 +100,7 @@ pre {
 
 
 
-#footer {
+/*#footer {
   width: auto;
   height: 300px;
-}
+}*/
