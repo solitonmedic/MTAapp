@@ -42,7 +42,6 @@ pre {
 	}
 	#background #input-div{
 		width: 100%;
-		height: 90%;
 	}
 	#button1{
 		display: block;
@@ -85,7 +84,6 @@ pre {
 }
 #input-div{
 	width: 80%;
-	height: 50%;
 	margin: 0 auto;
 	background-color: white;
 }
