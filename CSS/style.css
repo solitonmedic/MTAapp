@@ -1,8 +1,11 @@
 html body {
 	height:100%;
 	margin: 0;
+	background-color: skyblue;
 }
-      
+  *{
+	  margin:0;  
+  }    
 /*pre {
   tab-size: 8;
 }*/
@@ -104,14 +107,15 @@ html body {
 		
 	}
 	#directionsPanel{
-		width:80%;
-		display:block;
-		margin: 10px auto;
-		height: 300px;
+		background: white;
+		margin: 0;
 		
 
 	}
-
+	#directionsPanel *{
+		margin:0 auto ;
+		text-align: center;
+	}
 
 
 /*#footer {
