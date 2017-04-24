@@ -91,7 +91,7 @@ html body {
 	width: 80%;
 	margin: 0 auto;
 	background-color: white;
-	height: 900px;
+	height: 100%;
 	position: relative;
 }
 #origin-input{
@@ -109,6 +109,7 @@ html body {
 	#directionsPanel{
 		background: white;
 		margin: 0;
+		overflow: auto;
 		
 
 	}
